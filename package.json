@@ -1,0 +1,25 @@
+{
+  "name": "qr-code-component-main",
+  "version": "1.0.0",
+  "description": "QR Code Component",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Miguel",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^10.3.12",
+    "gulp": "^5.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.76.0",
+    "sharp": "^0.33.3"
+  }
+}

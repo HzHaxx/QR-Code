@@ -1,0 +1,10 @@
+.attribution {
+    width: 220px;
+    text-align: center;
+    font-size: 12px;
+
+    @include telefono {
+        width: auto;
+        margin-top: 12px;
+    }
+}

@@ -1,0 +1,46 @@
+// * Required
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+//---------------------------------------------------
+
+body {
+    font-family: $main_font;
+    background-color: $Light-gray;
+    line-height: normal;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 375px;
+}
+
+p {
+    color: $black;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+}
+
+img,
+picture {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+}

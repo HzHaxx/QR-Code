@@ -1,0 +1,12 @@
+main {
+    background-color: $white;
+    padding: 16px;
+    margin: 70px 0;
+    width: 320px;
+    height: 492px;
+    border-radius: 20px;
+
+    @include telefono {
+        margin: 102px 0;
+    }
+}

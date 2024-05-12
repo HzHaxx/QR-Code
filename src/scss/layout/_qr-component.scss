@@ -1,0 +1,25 @@
+.qr-code {
+    margin-bottom: 24px;
+}
+
+.qr-code-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 0 15px;
+
+    h1 {
+        font-weight: $bold;
+        margin: 0;
+        color: $Dark-blue;
+    }
+
+    p {
+        font-weight: $regular;
+        text-align: center;
+        margin: 0;
+        color: $Grayish-blue;
+    }
+}
