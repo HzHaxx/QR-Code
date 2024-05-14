@@ -16,10 +16,12 @@
   "license": "ISC",
   "devDependencies": {
     "glob": "^10.3.12",
-    "gulp": "^5.0.0",
     "gulp-plumber": "^1.2.1",
     "gulp-sass": "^5.1.0",
     "sass": "^1.76.0",
     "sharp": "^0.33.3"
+  },
+  "dependencies": {
+    "gulp": "^5.0.0"
   }
 }
