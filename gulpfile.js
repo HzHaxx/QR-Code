@@ -65,3 +65,4 @@ export function dev() {
 }
     
 export default series( css, imagenes, dev )
+export const build = series(css, imagenes); // * Build task important for Netlify
