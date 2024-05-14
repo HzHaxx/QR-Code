@@ -64,20 +64,6 @@ export function dev() {
     watch('src/img/**/*.{png,jpg}', imagenes) 
 }
 
-// * Function to copy HTML files
-export function copyHtml(done) {
-    src('./*.html')
-        .pipe(dest('./deploy'));
-    done();
-}
-
-// * Function to copy build directory
-export function copyBuild(done) {
-    src('./build/**/*')
-        .pipe(dest('./deploy/build'));
-    done();
-}
-
     
 export default series( css, imagenes, dev )
-export const build = series(css, imagenes, copyHtml, copyBuild); // * Build task important for Netlify
+export const build = series(css, imagenes); // * Build task important for Netlify
