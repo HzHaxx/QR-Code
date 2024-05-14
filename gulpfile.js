@@ -63,6 +63,13 @@ export function dev() {
     watch( paths.scss, css );
     watch('src/img/**/*.{png,jpg}', imagenes) 
 }
+
+// * Function to copy HTML files (Netlify)
+export function html(done) {
+    src('./*.html')
+        .pipe(dest('build'));
+    done();
+}
     
 export default series( css, imagenes, dev )
-export const build = series(css, imagenes); // * Build task important for Netlify
+export const build = series(css, imagenes, html); // * Build task important for Netlify
