@@ -78,6 +78,12 @@ export function copyBuild(done) {
     done();
 }
 
+// * Function to copy src directory
+export function copySrc(done) {
+    src('./src/**/*')
+        .pipe(dest('./deploy/src'));
+    done();
+}
     
 export default series( css, imagenes, dev )
-export const build = series(css, imagenes, copyHtml, copyBuild); // * Build task important for Netlify
+export const build = series(css, imagenes, copyHtml, copyBuild, copySrc); // * Build task important for Netlify
