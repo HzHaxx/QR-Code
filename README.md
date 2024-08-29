@@ -24,8 +24,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [QR Code Component](https://www.frontendmentor.io/solutions/qr-code-component-using-css-flexbox-jRCni_ufah)
-- Live Site URL: [QR Code Component](https://qr-codec0mp.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/qr-code-component-using-css-flexbox-jRCni_ufah)
+- [Live Site](https://qr-codec0mp.netlify.app/)
 
 ## My process
 
